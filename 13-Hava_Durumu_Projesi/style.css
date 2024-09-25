@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: indianred;
+}
+.container {
+  width: 650px;
+  background-color: antiquewhite;
+  box-shadow: 
+    rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, 
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, 
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, 
+    rgba(0, 0, 0, 0.06) 0px 2px 1px, 
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, 
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, 
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, 
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+}
+.city {
+  background-color: rgb(151, 215, 233);
+  border-radius: 15px 0px 0px 15px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  width: 75%;
+}
+.cityButton {
+  width: 25%;
+  background-color: rgb(55, 55, 55);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 0px 15px 15px 0px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+
+.icon img {
+  width: 50px;
+  height: 50px;
+}
+.temperature {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 20px 0px;
+}
+
+.details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.details div {
+  background-color: lightblue;
+  padding: 25px;
+  border-radius: 10px;
+  font-size: 18px;
+  margin: 10px;
+}
+@media (max-width: 768px) {
+  .details div {
+    width: 100%;
+  }
+}
