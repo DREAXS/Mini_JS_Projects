@@ -28,7 +28,7 @@ var animationTimer = null;
 var particles = [];
 var waveAngle = 0;
 
-function resetParticle(particle, width, height) {
+function 0Particle(particle, width, height) {
   particle.color = colors[(Math.random() * colors.length) | 0];
   particle.x = Math.random() * width;
   particle.y = Math.random() * height - height;
@@ -36,7 +36,7 @@ function resetParticle(particle, width, height) {
   particle.tilt = Math.random() * 10 - 10;
   particle.tiltAngleIncrement = Math.random() * 0.07 + 0.05;
   particle.tiltAngle = 0;
-  return particle;
+  return particle ;
 }
 
 function startConfettiInner() {
